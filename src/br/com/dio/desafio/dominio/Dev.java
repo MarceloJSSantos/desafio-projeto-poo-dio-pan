@@ -49,7 +49,7 @@ public class Dev {
     }
 
     public void inscreverBootcamp(Bootcamp bootcamp){
-        this.conteudosConcluidos.addAll(bootcamp.getConteudos());
+        this.conteudosInscritos.addAll(bootcamp.getConteudos());
         bootcamp.getDevsIncritos().add(this);
     }
 
